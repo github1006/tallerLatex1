@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}
+\contentsline {part}{I\hspace {1em}Analiss del sistema}{2}{}%
+\contentsline {section}{\numberline {0.1}ANTECEDENTES INSTITUCIONALES}{4}{}%
+\contentsline {section}{\numberline {0.2}LIMITES Y ALCANCES DEL SISTEMA}{4}{}%
+\contentsline {section}{\numberline {0.3}JUSTIFICACIÓN}{4}{}%
+\contentsline {section}{\numberline {0.4}OBJETIVOS DEL SISTEMA}{4}{}%
+\contentsline {part}{II\hspace {1em}Diseño}{5}{}%
+\contentsline {section}{\numberline {0.5}Diseño de Salida efectiva}{6}{}%
+\contentsline {section}{\numberline {0.6}Diseño de Entrada efectiva}{6}{}%
+\contentsline {chapter}{\numberline {A}GLOSARIO}{16}{}%

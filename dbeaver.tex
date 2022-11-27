@@ -1,0 +1,39 @@
+\chapter*{DBEAVER}
+DBeaver is un gestor de base de datos universal y profesional. Es capaz de manipular los datos, crear reportes analíticos basado en registros desde diferentes almacenes de base de datos, y exportar la información en un formato apropiado. 
+
+DBeaver ofrece:
+\begin{itemize}
+\item Interfaz de usuario cuidadosamente diseñado e implementado.
+\item Soporte de datos en la nube.
+\item Soporte estandar para seguridad empresarial
+\item Capacidad de trabajar con varias extensiones para integración con Excel, Git y otros
+\item Soporte multiplataforma
+\end{itemize}
+
+DBeaver se utilizó como herramienta de base de datos, se descargó de su página oficial \url{https://dbeaver.io/}
+se conenecto con dbeaver en puerto 3306 desde debian. La base de datos se llama DBCUERVO
+Para no tener error al conectar con la base de datos se realiza lo siguiete. 
+\begin{enumerate}
+\item sudo service mysqld stop
+\item sudo netstat -nap | grep :80 
+\item sudo kill 1433
+\item /opt/lampp/lampp stop
+\item /opt/lampp/lampp start
+\end{enumerate}
+El comando sudo service mysqld stop es necesario para detener mysql y luego en seguida con el comando  sudo netstat -nap  grep :80 se busca que servidor está en ejecución en puerto 80 como sigue tcp6       0      0 :::80                   :::*                    LISTEN      1433/apache2    en este caso el proceso 1433 se debe detener con sudo kill 1433
+y en seguida con el comando sudo /opt/lampp/lampp start se inicia de nuevo el servidor y tendremos el siguiente resultado:
+\begin{verbatim}
+Starting XAMPP for Linux 8.1.10-0...
+XAMPP: Starting Apache...fail.
+XAMPP:  Another web server is already running.
+XAMPP: Starting MySQL...ok.
+XAMPP: Starting ProFTPD...ok.
+\end{verbatim}
+Aquí se puede ver que Apache no se pudo iniciar porque no ejecutamos el paso 3, repitiendo correctamente es decir desocupando el puero 80 ya no da lo siguiente:
+\begin{verbatim}
+Starting XAMPP for Linux 8.1.10-0...
+XAMPP: Starting Apache...ok.
+XAMPP: Starting MySQL...already running.
+XAMPP: Starting ProFTPD...already running.
+\end{verbatim}
+Una vez hecho esto se puede iniciar con el gestor de base de datos DBeaver y no da error al conectar. Estos pasos siempre se los hace cada que inicia la computadora debe haber una manera de que el servidor esté corriendo siempre pero por motivos de tiempo no se pudo averiguar. 

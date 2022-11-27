@@ -1,0 +1,66 @@
+\documentclass[10pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\setlength{\headheight}{25.19998pt}
+\usepackage{geometry}
+\usepackage{appendix}
+\usepackage{framed, color}
+\usepackage[spanish]{babel}
+\usepackage[table]{xcolor}
+%\usepackage[linktoc=page]{hyperref}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+\usepackage{fancyhdr, lastpage}
+\pagestyle{fancy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%cabecera y pie%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\fancyhead{} %limpia cabecera
+\fancyhead[C]{
+\begin{tabular}{|l|l|l|}\hline
+Nombre del proyecto: FarmaKum & Version: 1.0 \\ \hline
+Visión:  & Fecha: \today \\ 
+\end{tabular}
+}
+\cfoot{página \thepage\ de \pageref{LastPage}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%fin cabecera  y pie %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\author{TOMÁS ÁLVAREZ DAZA}
+\usepackage{etoolbox}
+\patchcmd{\chapter}{\thispagestyle{plain}} {\thispagestyle{fancy}}{}{} %use con cuidado
+\begin{document}
+\begin{titlepage}
+	\begin{figure}
+		\includegraphics[width=2.5cm]{image/logoUbi2}
+	\end{figure}
+	\title{FARMACIA\\
+	\textbf{PLAN DE DESARROLLO DE SOFTWARE}\\
+	\textbf{Materia:} Ingenieria de software\\ 
+	\textbf{Docente:}  Lic. Elizabeth Patricia Rondo Montes
+ }
+	
+\end{titlepage}
+\maketitle
+
+\tableofcontents
+\include{tablaHistorialCambio}
+\include{planDesarrollo}
+\appendix
+\include{siglas}
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+
+
+\end{document}%final del documento

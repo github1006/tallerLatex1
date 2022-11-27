@@ -1,0 +1,112 @@
+\documentclass[10pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+%\setlength{\headheight}{25.19998pt}
+\usepackage{geometry}
+\usepackage{appendix}
+\usepackage{framed, color}
+\usepackage[spanish]{babel}
+\usepackage[table]{xcolor}
+%\usepackage[linktoc=page]{hyperref} esto hace que no funcione hiperref
+\usepackage{advdate}%para que en las tablas se pueda sumar fechas https://tex.stackexchange.com/questions/4873/date-calculations
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdfpagemode=FullScreen,
+    }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%cabecera y pie%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{fancyhdr, lastpage}
+%\pagestyle{fancy}
+%\fancyhead{} %limpia cabecera
+%\fancyhead[C]{
+%\begin{tabular}{|l|l|l|}\hline
+%Nombre del proyecto: Biblioteca DP & Version: 1.0 \\ \hline
+%Visión:  & Fecha: \today \\ 
+%\end{tabular}
+%}
+%%%%%%%%%%%%%%%%%%pie pagina %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cfoot{página \thepage\ de \pageref{LastPage}}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%fin cabecera  y pie %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{TOMÁS ÁLVAREZ DAZA}
+\begin{document}
+
+\begin{titlepage}
+	\begin{figure}
+		\includegraphics[width=2cm]{images/logoUbi2.png}
+	\end{figure}
+	\title{PLANIFICACIÓN DEL DESARROLLO DE SOFTWARE\\
+	(SISTEMA DE BIBLIOTECA DIGITAL)\\
+	Materia:Taller de Sistemas I\\ 
+	Docente: Ing. Javier Kanqui\\
+	\vspace{1cm}
+
+ \begin{tabular}{c|c|r}
+	\hline
+	Autor & Versión & Fecha \\
+	\hline
+	Tomás Álvarez Daza & 1.0 & 21-sep-2022 \\
+	\hline
+	\end{tabular}}
+	
+\end{titlepage}
+\maketitle
+
+\tableofcontents
+
+
+%\include{resumen}
+%\include{problema}
+%\part{Requerimientos}
+\include{requerimiento}%--------------------------requerimientos
+\part{Plan de desarrollo del proyecto}
+\include{plan/tablaHistorialCambio}
+\include{plan/planDesarrollo}
+%\include{diagramaClase}
+%\include{diagramaSecuencia}
+
+\part{Analisis del sistema} %--------------------------Analisis
+%\include{diagramaProceso}
+%\include{diagramaCasoUso}
+
+%---------------------------Diseño
+\part{Diseño}
+\include{disenoDB}
+\include{disenoFormularioReporte}
+\part{Implementación}% aqui  paradigam: Microser nosotros API rest
+\include{tecnologia}
+\include{maven}
+\include{java}
+\include{mysql}
+\include{spring}
+\include{idea}
+\include{dbeaver}
+\include{swagger}
+
+
+%\part{Testing}
+%\include{testing}
+
+
+
+
+
+%\include{apuntito}
+
+\appendix
+%\include{glosario}
+\bibliographystyle{apalike}
+\bibliography{ref}
+
+
+
+\end{document}
+
