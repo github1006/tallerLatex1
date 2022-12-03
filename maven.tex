@@ -1,6 +1,6 @@
-\addcontentsline{toc}{chapter}{MAVEN}
-\chapter*{MAVEN}
-\stepcounter{chapter}
+%\addcontentsline{toc}{chapter}{MAVEN}
+\chapter{MAVEN}
+%\stepcounter{chapter}
 %Aqui usaremos paradigma de micro servicio en nuestro caso api rest
 \section{MVN}
 Apache Maven es una herramienta de comprensión y gestión de proyectos de software. Basado en el concepto de un modelo de objetos de proyecto (POM), Maven puede administrar la construcción, los informes y la documentación de un proyecto desde una pieza central de información. Se descarga de la siguiente dirección  \url{https://maven.apache.org/download.cgi}, se instala y se verifica como sigue
@@ -22,3 +22,21 @@ Se debe descara el binario comprimido en .tar (tape archiv); en window se puede 
 Es un xml  que contiene información a cerca del proyecto y configuración usado por Maven para compilar el proyecto. Project Object Model o POM es la parte básica de la funcionalidad de Maven. Este es un archivo XML que tiene información sobre las dependencias, configuraciones y otra información importante sobre el proyecto. Maven revisa esta información y luego realiza la tarea designada.
 
 Spring Initializr es una API \footnote{ interfaz de programación de aplicaciones API es una forma en que dos o más programas de computadora se comunican entre sí. Es un tipo de interfaz de software que ofrece un servicio a otras piezas de software} que permite la generación de proyectos con sus dependencias permitiendo simplificar esta etapa inicial de arranque de nuevos proyectos. 
+
+\section{Dependencias utilizadas en el proyecto}
+Se instalaron varias dependencias en el proyecto:
+\subsection{Lombok}
+\begin{verbatim}
+<dependency>
+	<groupId>org.projectlombok</groupId>
+	<artifactId>lombok</artifactId>
+	<optional>true</optional>
+	</dependency>
+\end{verbatim}
+
+\begin{verbatim}
+<dependency>
+	<groupId>org.springframework.boot</groupId>
+	<artifactId>spring-boot-starter-web</artifactId>
+ 	</dependency>
+\end{verbatim}

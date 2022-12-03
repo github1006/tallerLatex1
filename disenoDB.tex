@@ -5,6 +5,10 @@
 Se abstrae del problema real. Nuestras entidades serán el autor, 
 Para el diseño entidad relación de base datos se utiliza la herramienta \textit{Draw io}. 
 
+\begin{enumerate}
+\item \textbf{DOI,} es un identificador único que permite identificar un artículo durante su vida útil aunque la revista en la que fue publicado desaparezca o cambia de nombre. Está compuesto por una parte que identifica a la entidad que registra el DOI y otra parte que identifica al objeto, en este caso, el artículo científico.
+\end{enumerate}
+
 %\section{MODELO VISTA CONTROLADOR}
 %\subsection{MODELO}
 %Mapeamos una clase con cada tabla, aquí unimos el código con la base de datos. 
@@ -15,89 +19,3 @@ Para el diseño entidad relación de base datos se utiliza la herramienta \texti
 %\section{TECNOLOGÍA ORM UTILIZADO EN EL PROYECTO}
 %\subsection{SPRING BOOT}
 %%para node se usa express, para php láravel
-\section{Diccionario de datos}
-% inicia dic datos%%%%%%%%%%%%%%%%%%%
-
-
-\begin{table}[h]
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{llll}
-\hline
-\multicolumn{3}{l}{\textbf{Nobre del archivo:} Libro}            & \textbf{Fecha de creación:} \today                  \\ \hline
-\multicolumn{4}{l}{\textbf{Descripción:} Es un archivo para almacenar libros}                                                                 \\ \hline
-\rowcolor[HTML]{C0C0C0} 
-\multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Campo}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tamaño}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tipo de dato}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Descripción}} \\ \hline
-IDE                    & 6               & Numérico        & Clave única de registro de documento         \\
-Año            & 100             & Caracter        & Año del libro                        \\
-Editorial              & 10              & Caracter        & hggdg             \\
-Edicion             & 5               & Caracter        & Extensión del documenten ej. pdf, upub, djvu \\
-Págginas            & 6               & Numérico        & Número de páginas que tiene el libro         \\ \hline
-\multicolumn{2}{l}{\textbf{Relaciones:}} & \multicolumn{2}{l}{\textbf{Campos clave:} ID documento}                     \\
-\multicolumn{2}{l}{}                     & \multicolumn{2}{l}{}                                           \\ \hline
-\end{tabular}%
-}
-\end{table}
-
-\begin{table}[h]
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{llll}
-\hline
-\multicolumn{3}{l}{\textbf{Nombre del archivo:} Artículo}            & \textbf{Fecha de creación:} \today                  \\ \hline
-\multicolumn{4}{l}{\textbf{Descripción:} Contiene }                                                                 \\ \hline
-\rowcolor[HTML]{C0C0C0} 
-\multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Campo}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tamaño}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tipo de dato}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Descripción}} \\ \hline
-IDE                    & 6             & Numérico        & Clave única de registro de documento         \\
-DOI                 & 20               & Caracter        & Es un identificador único que nunca cambia asignado a un artículo.             \\
-Revista               & 100            & Caracter        & Nombre de revista quien publicó    \\ \hline
-\multicolumn{2}{l}{\textbf{Relaciones:}} & \multicolumn{2}{l}{\textbf{Campos clave:} ID documento}                     \\
-\multicolumn{2}{l}{}                     & \multicolumn{2}{l}{}                                           \\ \hline
-\end{tabular}%
-}
-\end{table}
-
-
-\begin{table}[h]
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{llll}
-\hline
-\multicolumn{3}{l}{\textbf{Nombre del archivo:} SitiosWeb}            & \textbf{Fecha de creación:} \today                  \\ \hline
-\multicolumn{4}{l}{\textbf{Descripción:} Guarda datos de enlaces a páginas web útiles al estudiante}                                                                 \\ \hline
-\rowcolor[HTML]{C0C0C0} 
-\multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Campo}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tamaño}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tipo de dato}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Descripción}} \\ \hline
-IDE                    & 6         & Numérico        & Clave única de registro del link         \\
-URL                 & 20           & Caracter        & URL del enlace a página web             \\
-Fecha de acceso     & -            & Fecha           & Fecha en que se guardó el enlace    \\ \hline
-\multicolumn{2}{l}{\textbf{Relaciones:}} & \multicolumn{2}{l}{\textbf{Campos clave:} ID documento}                     \\
-\multicolumn{2}{l}{}                     & \multicolumn{2}{l}{}                                           \\ \hline
-\end{tabular}%
-}
-\end{table}
-
-\begin{table}[h]
-\resizebox{\columnwidth}{!}{%
-\begin{tabular}{llll}
-\hline
-\multicolumn{3}{l}{\textbf{Nombre del archivo:} Autor}            & \textbf{Fecha de creación:} \today                  \\ \hline
-\multicolumn{4}{l}{\textbf{Descripción:} Datos del autor}                                                                 \\ \hline
-\rowcolor[HTML]{C0C0C0} 
-\multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Campo}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tamaño}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Tipo de dato}} &
-  \multicolumn{1}{c}{\cellcolor[HTML]{C0C0C0}\textbf{Descripción}} \\ \hline
-IDE                    & 6         & Numérico        & Clave única de registro del link         \\
-Nombre                 & 20        & Caracter        & Es el nombre del autor             \\
-Pais de origen         & 20        & Caracter        & Pais del autor \\ \hline
-\multicolumn{2}{l}{\textbf{Relaciones:}} & \multicolumn{2}{l}{\textbf{Campos clave:} ID documento}                     \\
-\multicolumn{2}{l}{}                     & \multicolumn{2}{l}{}                                           \\ \hline
-\end{tabular}%
-}
-\end{table}

@@ -1,0 +1,76 @@
+\chapter{Diccionario de datos}
+% inicia dic datos%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------DOCUMENTO--------------------------
+
+\begin{table}[h]
+\begin{tabular}{lllp{10cm}}
+\multicolumn{3}{l}{Nombre del archivo: Documento} & \multicolumn{1}{l}{Fecha de creación \today}\\
+\multicolumn{4}{l}{Descripción: Cualquier objeto digital que requiera el estudiante} \\ \hline
+\multicolumn{1}{c}{\textbf{Campo}} & \multicolumn{1}{c}{\textbf{Tamaño}} & \multicolumn{1}{c}{\textbf{Tipo de dato}} & \multicolumn{1}{c}{\textbf{Descripción}} \\ \hline
+
+idDoc   & 6   & Numérico    & Clave única de registro de documento  \\
+titulo  & 500  & Caracter   & Título del documento digital \\
+lenguaje & 20  & Caracter   & Lengua en el que está el documento \\
+ocupa    & 5   & Numérico   & Cantidad que ocupa en un dispositivo de almacenamiento  \\
+descripcion   & 200  & Caracter  & Breve descripción del documento  \\ 
+fechaReg      & x    & Date      & Es la fecha en que se registró el documento         \\ 
+\hline
+\multicolumn{3}{l}{Relaciones: idDocumento con idAutor} & \multicolumn{1}{l}{Campos clave: idDocumento}          
+\end{tabular}
+\end{table}
+%--------------------------- ACADÉMICO--------------------------
+\begin{table}[h]
+\begin{tabular}{lllp{10cm}}
+\multicolumn{3}{l}{Nombre del archivo: Académico} & \multicolumn{1}{l}{Fecha de creación: \today}\\
+\multicolumn{4}{l}{Descripción: Base de datos que contiene documentos académicos o científicos} \\ \hline
+\multicolumn{1}{c}{\textbf{Campo}} & \multicolumn{1}{c}{\textbf{Tamaño}} & \multicolumn{1}{c}{\textbf{Tipo de dato}} & \multicolumn{1}{c}{\textbf{Descripción}} \\ \hline
+
+idAcademico   & 6   & Numérico    & Clave única de registro de documento académico  \\
+doi  & 300  & Caracter   & Identificador digital de documento \\
+paginas  & x  & Numérico   & Número de páginas que tiene el documentos académico \\
+ano & 4  & numérico   & Es el año que se publicó el documento\\
+\hline
+\multicolumn{3}{l}{Relaciones: idAcademico con idDocumento} & \multicolumn{1}{l}{Campos clave: idAcademico y doi}          
+\end{tabular}
+\end{table}
+%%----------------------------------------LIBRO--------------------------
+\begin{table}[h]
+\begin{tabular}{lllp{10cm}}
+\multicolumn{3}{l}{Nombre del archivo: Libro} & \multicolumn{1}{l}{Fecha de creación: \today}\\
+\multicolumn{4}{l}{Descripción: Base de datos que contiene libros} \\ \hline
+\multicolumn{1}{c}{\textbf{Campo}} & \multicolumn{1}{c}{\textbf{Tamaño}} & \multicolumn{1}{c}{\textbf{Tipo de dato}} & \multicolumn{1}{c}{\textbf{Descripción}} \\ \hline
+
+idLibro   & 18   & Numérico    & Clave única de registro de documento académico  \\
+edicion    & 3  & Numérico   & Es el número de edición del libro \\
+Editorial  & 20  & Caracter   & Es el editorial publicador del libro \\
+\hline
+\multicolumn{3}{l}{Relaciones:idLibro con idAcademico} & \multicolumn{1}{l}{Campos clave: idLibro}          
+\end{tabular}
+\end{table}
+%----------------------------------------ARTICULO--------------------------
+\begin{table}[H]
+\begin{tabular}{lllp{10cm}}
+\multicolumn{3}{l}{Nombre del archivo: Articulo} & \multicolumn{1}{l}{Fecha de creación: \today}\\
+\multicolumn{4}{l}{Descripción: Base de datos que contiene artículos} \\ \hline
+\multicolumn{1}{c}{\textbf{Campo}} & \multicolumn{1}{c}{\textbf{Tamaño}} & \multicolumn{1}{c}{\textbf{Tipo de dato}} & \multicolumn{1}{c}{\textbf{Descripción}} \\ \hline
+
+idArticulo   & 18   & Numérico    & Clave única de registro artículos  \\
+revista    & 200  & Caracter   & Es la revista que publica el artículo \\
+\hline
+\multicolumn{3}{l}{Relaciones: idLibro con idDocumento} & \multicolumn{1}{l}{Campos clave: idArticulo}          
+\end{tabular}
+\end{table}
+%----------------------------------------AUTOR--------------------------
+\begin{table}[H]
+\begin{tabular}{lllp{10cm}}
+\multicolumn{3}{l}{Nombre del archivo: Autor} & \multicolumn{1}{l}{Fecha de creación: \today}\\
+\multicolumn{4}{l}{Descripción: Base de datos que contiene autores} \\ \hline
+\multicolumn{1}{c}{\textbf{Campo}} & \multicolumn{1}{c}{\textbf{Tamaño}} & \multicolumn{1}{c}{\textbf{Tipo de dato}} & \multicolumn{1}{c}{\textbf{Descripción}} \\ \hline
+
+idAutor   & 18   & Numérico    & Clave única de registro de un autor  \\
+nombreAutor    & 200  & Caracter   & Es el nombre del autor \\
+\hline
+\multicolumn{3}{l}{Relaciones: idAutor con idDocumento} & \multicolumn{1}{l}{Campos clave: idAutor}          
+\end{tabular}
+\end{table}

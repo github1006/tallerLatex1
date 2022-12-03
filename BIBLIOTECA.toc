@@ -1,53 +1,44 @@
 \babel@toc {spanish}{}
-\contentsline {part}{I\hspace {1em}Plan de desarrollo del proyecto}{4}{part.1}%
-\contentsline {chapter}{CONTROL DE CAMBIOS}{5}{section*.6}%
-\contentsline {chapter}{Introducción}{6}{chapter*.7}%
-\contentsline {section}{\numberline {2.1}Descripción del proyecto}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Necesidades del proyecto}{6}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Propósito u objetivo}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Alcance}{6}{section.2.4}%
-\contentsline {chapter}{Vista general del proyecto}{6}{section.2.4}%
-\contentsline {section}{\numberline {3.1}Suposiciones y restricciones}{7}{section.3.1}%
-\contentsline {chapter}{Organización del Proyecto}{7}{section.3.1}%
-\contentsline {section}{\numberline {4.1}Participantes en el proyecto}{8}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Jefe de proyecto}{8}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Analista de sistemas}{8}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Diseñador de sistemas}{8}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Desarrolladores}{8}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Tester}{8}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Roles y responsabilidades}{8}{section.4.2}%
-\contentsline {chapter}{Gestión de proceso}{8}{section.4.2}%
-\contentsline {section}{\numberline {5.1}Estimación del proyecto}{9}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Herramientas para gestión y ciclo de vida de software de proyectos}{9}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Herramientas de control de código fuente}{9}{subsection.5.2.1}%
-\contentsline {section}{\numberline {5.3}Plan de proyecto}{9}{section.5.3}%
-\contentsline {subsubsection}{Calendario de proyecto}{9}{section*.12}%
-\contentsline {subsubsection}{Diagrama de Gantt}{9}{section*.13}%
-\contentsline {section}{\numberline {5.4}Seguimiento y control de proyecto}{9}{section.5.4}%
-\contentsline {part}{II\hspace {1em}Analisis del sistema}{10}{part.2}%
-\contentsline {part}{III\hspace {1em}Diseño}{11}{part.3}%
-\contentsline {chapter}{Diseño de base de datos}{12}{section*.14}%
-\contentsline {section}{\numberline {6.1}Diagrama entidad relación}{12}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Diccionario de datos}{12}{section.6.2}%
-\contentsline {chapter}{DISEÑO DE FORMULARIO Y REPORTES}{14}{section.6.2}%
-\contentsline {section}{\numberline {7.1}Diseño de Salida efectiva}{14}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Diseño de Entrada efectiva}{14}{section.7.2}%
-\contentsline {part}{IV\hspace {1em}Implementación}{16}{part.4}%
-\contentsline {chapter}{Tecnologías}{17}{section*.17}%
-\contentsline {chapter}{MAVEN}{18}{chapter*.18}%
-\contentsline {section}{\numberline {8.1}MVN}{18}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}PROJECT OBJECT MODEL (POM)}{18}{subsection.8.1.1}%
-\contentsline {section}{\numberline {9.1}JDK}{20}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Versión de java que se utiliza en el proyecto}{20}{section.9.2}%
-\contentsline {chapter}{}{21}{section.9.2}%
-\contentsline {chapter}{SPRING}{22}{chapter*.21}%
-\contentsline {section}{\numberline {11.1}Spring Boot}{22}{section.11.1}%
-\contentsline {section}{\numberline {11.2}Spring inizializer}{22}{section.11.2}%
-\contentsline {chapter}{IntelliJ IDEA}{23}{figure.11.1}%
-\contentsline {section}{\numberline {12.1}Asistente al codificar}{23}{section.12.1}%
-\contentsline {section}{\numberline {12.2}Refactorización}{24}{section.12.2}%
-\contentsline {section}{\numberline {12.3}Terminal}{24}{section.12.3}%
-\contentsline {section}{\numberline {12.4}Herramientas de construcción}{24}{section.12.4}%
-\contentsline {section}{\numberline {12.5}Control de Versiones}{24}{section.12.5}%
-\contentsline {section}{\numberline {12.6}Requerimientos del sistema e instalación}{24}{section.12.6}%
-\contentsline {section}{\numberline {12.7}Swagger UI}{27}{section.12.7}%
+\contentsline {subsubsection}{Necesidades del software}{3}{subsubsection*.3}%
+\contentsline {part}{I\hspace {1em}Requerimientos}{5}{part.1}%
+\contentsline {chapter}{\numberline {1}LISTA DE REQUERIMIENTOS}{6}{chapter.1}%
+\contentsline {section}{\numberline {1.1}REQUERIMIENTOS FUNCIONALES}{6}{section.1.1}%
+\contentsline {section}{\numberline {1.2}REQUERIMIENTOS NO FUNCIONALES}{6}{section.1.2}%
+\contentsline {section}{\numberline {1.3}ESCALABILIDAD}{6}{section.1.3}%
+\contentsline {part}{II\hspace {1em}Analisis del sistema}{7}{part.2}%
+\contentsline {part}{III\hspace {1em}Diseño}{10}{part.3}%
+\contentsline {chapter}{Diseño de base de datos}{14}{figure.1.5}%
+\contentsline {section}{\numberline {2.1}Diagrama entidad relación}{14}{section.2.1}%
+\contentsline {chapter}{DISEÑO DE FORMULARIO Y REPORTES}{15}{Item.16}%
+\contentsline {section}{\numberline {3.1}Diseño de Salida efectiva}{15}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Diseño de Entrada efectiva}{15}{section.3.2}%
+\contentsline {part}{IV\hspace {1em}Implementación}{17}{part.4}%
+\contentsline {chapter}{Tecnologías}{18}{section*.10}%
+\contentsline {chapter}{\numberline {4}MAVEN}{19}{chapter.4}%
+\contentsline {section}{\numberline {4.1}MVN}{19}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}PROJECT OBJECT MODEL (POM)}{19}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Dependencias utilizadas en el proyecto}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Lombok}{20}{subsection.4.2.1}%
+\contentsline {chapter}{\numberline {5}JAVA}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}JDK}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Versión de java que se utiliza en el proyecto}{21}{section.5.2}%
+\contentsline {chapter}{\numberline {6}MySql/Mariadb}{22}{chapter.6}%
+\contentsline {chapter}{\numberline {8}SPRING}{23}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Spring Boot}{23}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Fásil manejo de dependencias}{23}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Autoconfiguración}{23}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Soporte integrado de contenedor de servlet}{24}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}Spring Initializr}{24}{subsection.8.4.1}%
+\contentsline {section}{\numberline {8.5}Herramientas de desarrollo}{24}{section.8.5}%
+\contentsline {chapter}{\numberline {9}IntelliJ IDEA}{25}{chapter.9}%
+\contentsline {section}{\numberline {10.1}Asistente al codificar}{26}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Refactorización}{26}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Terminal}{26}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Herramientas de construcción}{26}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Control de Versiones}{26}{section.10.5}%
+\contentsline {section}{\numberline {10.6}Requerimientos del sistema e instalación}{26}{section.10.6}%
+\contentsline {chapter}{\numberline {11}DBEAVER}{28}{chapter.11}%
+\contentsline {chapter}{\numberline {12}SWAGGER}{29}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Swagger UI}{29}{section.12.1}%
+\contentsline {chapter}{\numberline {13}Diccionario de datos}{30}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Descripción de API REST}{31}{chapter.14}%

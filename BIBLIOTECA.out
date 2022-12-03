@@ -1,50 +1,42 @@
-\BOOKMARK [-1][-]{part.1}{I Plan de desarrollo del proyecto}{}% 1
-\BOOKMARK [0][-]{section*.6}{CONTROL DE CAMBIOS}{part.1}% 2
-\BOOKMARK [0][-]{chapter*.7}{Introducci\363n}{part.1}% 3
-\BOOKMARK [1][-]{section.2.1}{Descripci\363n del proyecto}{chapter*.7}% 4
-\BOOKMARK [1][-]{section.2.2}{Necesidades del proyecto}{chapter*.7}% 5
-\BOOKMARK [1][-]{section.2.3}{Prop\363sito u objetivo}{chapter*.7}% 6
-\BOOKMARK [1][-]{section.2.4}{Alcance}{chapter*.7}% 7
-\BOOKMARK [0][-]{section.2.4}{Vista general del proyecto}{part.1}% 8
-\BOOKMARK [1][-]{section.3.1}{Suposiciones y restricciones}{section.2.4}% 9
-\BOOKMARK [0][-]{section.3.1}{Organizaci\363n del Proyecto}{part.1}% 10
-\BOOKMARK [1][-]{section.4.1}{Participantes en el proyecto}{section.3.1}% 11
-\BOOKMARK [2][-]{subsection.4.1.1}{Jefe de proyecto}{section.4.1}% 12
-\BOOKMARK [2][-]{subsection.4.1.2}{Analista de sistemas}{section.4.1}% 13
-\BOOKMARK [2][-]{subsection.4.1.3}{Dise\361ador de sistemas}{section.4.1}% 14
-\BOOKMARK [2][-]{subsection.4.1.4}{Desarrolladores}{section.4.1}% 15
-\BOOKMARK [2][-]{subsection.4.1.5}{Tester}{section.4.1}% 16
-\BOOKMARK [1][-]{section.4.2}{Roles y responsabilidades}{section.3.1}% 17
-\BOOKMARK [0][-]{section.4.2}{Gesti\363n de proceso}{part.1}% 18
-\BOOKMARK [1][-]{section.5.1}{Estimaci\363n del proyecto}{section.4.2}% 19
-\BOOKMARK [1][-]{section.5.2}{Herramientas para gesti\363n y ciclo de vida de software de proyectos}{section.4.2}% 20
-\BOOKMARK [2][-]{subsection.5.2.1}{Herramientas de control de c\363digo fuente}{section.5.2}% 21
-\BOOKMARK [1][-]{section.5.3}{Plan de proyecto}{section.4.2}% 22
-\BOOKMARK [1][-]{section.5.4}{Seguimiento y control de proyecto}{section.4.2}% 23
-\BOOKMARK [-1][-]{part.2}{II Analisis del sistema}{}% 24
-\BOOKMARK [-1][-]{part.3}{III Dise\361o}{}% 25
-\BOOKMARK [0][-]{section*.14}{Dise\361o de base de datos}{part.3}% 26
-\BOOKMARK [1][-]{section.6.1}{Diagrama entidad relaci\363n}{part.3}% 27
-\BOOKMARK [1][-]{section.6.2}{Diccionario de datos}{part.3}% 28
-\BOOKMARK [0][-]{section.6.2}{DISE\321O DE FORMULARIO Y REPORTES}{part.3}% 29
-\BOOKMARK [1][-]{section.7.1}{Dise\361o de Salida efectiva}{section.6.2}% 30
-\BOOKMARK [1][-]{section.7.2}{Dise\361o de Entrada efectiva}{section.6.2}% 31
-\BOOKMARK [-1][-]{part.4}{IV Implementaci\363n}{}% 32
-\BOOKMARK [0][-]{section*.17}{Tecnolog\355as}{part.4}% 33
-\BOOKMARK [0][-]{chapter*.18}{MAVEN}{part.4}% 34
-\BOOKMARK [1][-]{section.8.1}{MVN}{chapter*.18}% 35
-\BOOKMARK [2][-]{subsection.8.1.1}{PROJECT OBJECT MODEL \(POM\)}{section.8.1}% 36
-\BOOKMARK [1][-]{section.9.1}{JDK}{chapter*.18}% 37
-\BOOKMARK [1][-]{section.9.2}{Versi\363n de java que se utiliza en el proyecto}{chapter*.18}% 38
-\BOOKMARK [0][-]{section.9.2}{}{part.4}% 39
-\BOOKMARK [0][-]{chapter*.21}{SPRING}{part.4}% 40
-\BOOKMARK [1][-]{section.11.1}{Spring Boot}{chapter*.21}% 41
-\BOOKMARK [1][-]{section.11.2}{Spring inizializer}{chapter*.21}% 42
-\BOOKMARK [0][-]{figure.11.1}{IntelliJ IDEA}{part.4}% 43
-\BOOKMARK [1][-]{section.12.1}{Asistente al codificar}{figure.11.1}% 44
-\BOOKMARK [1][-]{section.12.2}{Refactorizaci\363n}{figure.11.1}% 45
-\BOOKMARK [1][-]{section.12.3}{Terminal}{figure.11.1}% 46
-\BOOKMARK [1][-]{section.12.4}{Herramientas de construcci\363n}{figure.11.1}% 47
-\BOOKMARK [1][-]{section.12.5}{Control de Versiones}{figure.11.1}% 48
-\BOOKMARK [1][-]{section.12.6}{Requerimientos del sistema e instalaci\363n}{figure.11.1}% 49
-\BOOKMARK [1][-]{section.12.7}{Swagger UI}{figure.11.1}% 50
+\BOOKMARK [-1][-]{part.1}{I Requerimientos}{}% 1
+\BOOKMARK [0][-]{chapter.1}{LISTA DE REQUERIMIENTOS}{part.1}% 2
+\BOOKMARK [1][-]{section.1.1}{REQUERIMIENTOS FUNCIONALES}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.2}{REQUERIMIENTOS NO FUNCIONALES}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.3}{ESCALABILIDAD}{chapter.1}% 5
+\BOOKMARK [-1][-]{part.2}{II Analisis del sistema}{}% 6
+\BOOKMARK [-1][-]{part.3}{III Dise\361o}{}% 7
+\BOOKMARK [0][-]{figure.1.5}{Dise\361o de base de datos}{part.3}% 8
+\BOOKMARK [1][-]{section.2.1}{Diagrama entidad relaci\363n}{figure.1.5}% 9
+\BOOKMARK [0][-]{Item.16}{DISE\321O DE FORMULARIO Y REPORTES}{part.3}% 10
+\BOOKMARK [1][-]{section.3.1}{Dise\361o de Salida efectiva}{Item.16}% 11
+\BOOKMARK [1][-]{section.3.2}{Dise\361o de Entrada efectiva}{Item.16}% 12
+\BOOKMARK [-1][-]{part.4}{IV Implementaci\363n}{}% 13
+\BOOKMARK [0][-]{section*.10}{Tecnolog\355as}{part.4}% 14
+\BOOKMARK [0][-]{chapter.4}{MAVEN}{part.4}% 15
+\BOOKMARK [1][-]{section.4.1}{MVN}{chapter.4}% 16
+\BOOKMARK [2][-]{subsection.4.1.1}{PROJECT OBJECT MODEL \(POM\)}{section.4.1}% 17
+\BOOKMARK [1][-]{section.4.2}{Dependencias utilizadas en el proyecto}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.2.1}{Lombok}{section.4.2}% 19
+\BOOKMARK [0][-]{chapter.5}{JAVA}{part.4}% 20
+\BOOKMARK [1][-]{section.5.1}{JDK}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Versi\363n de java que se utiliza en el proyecto}{chapter.5}% 22
+\BOOKMARK [0][-]{chapter.6}{MySql/Mariadb}{part.4}% 23
+\BOOKMARK [0][-]{chapter.8}{SPRING}{part.4}% 24
+\BOOKMARK [1][-]{section.8.1}{Spring Boot}{chapter.8}% 25
+\BOOKMARK [1][-]{section.8.2}{F\341sil manejo de dependencias}{chapter.8}% 26
+\BOOKMARK [1][-]{section.8.3}{Autoconfiguraci\363n}{chapter.8}% 27
+\BOOKMARK [1][-]{section.8.4}{Soporte integrado de contenedor de servlet}{chapter.8}% 28
+\BOOKMARK [2][-]{subsection.8.4.1}{Spring Initializr}{section.8.4}% 29
+\BOOKMARK [1][-]{section.8.5}{Herramientas de desarrollo}{chapter.8}% 30
+\BOOKMARK [0][-]{chapter.9}{IntelliJ IDEA}{part.4}% 31
+\BOOKMARK [1][-]{section.10.1}{Asistente al codificar}{chapter.9}% 32
+\BOOKMARK [1][-]{section.10.2}{Refactorizaci\363n}{chapter.9}% 33
+\BOOKMARK [1][-]{section.10.3}{Terminal}{chapter.9}% 34
+\BOOKMARK [1][-]{section.10.4}{Herramientas de construcci\363n}{chapter.9}% 35
+\BOOKMARK [1][-]{section.10.5}{Control de Versiones}{chapter.9}% 36
+\BOOKMARK [1][-]{section.10.6}{Requerimientos del sistema e instalaci\363n}{chapter.9}% 37
+\BOOKMARK [0][-]{chapter.11}{DBEAVER}{part.4}% 38
+\BOOKMARK [0][-]{chapter.12}{SWAGGER}{part.4}% 39
+\BOOKMARK [1][-]{section.12.1}{Swagger UI}{chapter.12}% 40
+\BOOKMARK [0][-]{chapter.13}{Diccionario de datos}{part.4}% 41
+\BOOKMARK [0][-]{chapter.14}{Descripci\363n de API REST}{part.4}% 42

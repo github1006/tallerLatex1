@@ -1,5 +1,9 @@
 \documentclass[10pt,letterpaper]{report}
 \usepackage[utf8]{inputenc}
+%\usepackage{fancyhdr} %para que los capitulos se eliminen
+%\renewcommand{\chaptername}{Algo}
+\usepackage{titlesec} %esttas doli linas corrigen o quita chapte pero no numeran
+\titleformat{\chapter}{}{}{0em}{\bf\LARGE}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -7,6 +11,16 @@
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 %\setlength{\headheight}{25.19998pt}
 \usepackage{geometry}
+\usepackage{float} %para que no se muevan las tablas
+%-------------------------------para uml
+%\usepackage{tikz,pgfplots}
+%\usetikzlibrary{positioning}
+%\usepackage{silence}
+%\WarningFilter{pgf}{Your graphic driver} 
+%\usepackage{tikz-uml}
+%\tikzumlset{fill usecase=white}
+%\usepackage{pdflscape}
+%----------------------------------------fin uml
 \usepackage{appendix}
 \usepackage{framed, color}
 \usepackage[spanish]{babel}
@@ -64,23 +78,25 @@
 
 
 %\include{resumen}
-%\include{problema}
-%\part{Requerimientos}
+\include{problema}
+\part{Requerimientos}
 \include{requerimiento}%--------------------------requerimientos
-\part{Plan de desarrollo del proyecto}
-\include{plan/tablaHistorialCambio}
-\include{plan/planDesarrollo}
-%\include{diagramaClase}
-%\include{diagramaSecuencia}
+%\part{Plan de desarrollo del proyecto}
+%\include{plan/tablaHistorialCambio}
+%\include{plan/planDesarrollo}
+
 
 \part{Analisis del sistema} %--------------------------Analisis
-%\include{diagramaProceso}
-%\include{diagramaCasoUso}
+\include{diagramaProceso}
+\include{diagramaCasoUso}
 
 %---------------------------Diseño
 \part{Diseño}
+\include{diagramaClase}
+\include{diagramaSecuencia}
 \include{disenoDB}
 \include{disenoFormularioReporte}
+%------------------------------------IMPLEMENTACION
 \part{Implementación}% aqui  paradigam: Microser nosotros API rest
 \include{tecnologia}
 \include{maven}
@@ -90,7 +106,8 @@
 \include{idea}
 \include{dbeaver}
 \include{swagger}
-
+\include{diccionarioDato}
+\include{apiRest}
 
 %\part{Testing}
 %\include{testing}
