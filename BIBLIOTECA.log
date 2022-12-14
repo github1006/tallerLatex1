@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.27)  10 DEC 2022 11:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  14 DEC 2022 14:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,7 +193,7 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count271
 \U@D=\dimen167
-\l@babelnohyphens=\language12
+\l@babelnohyphens=\language8
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -610,15 +610,15 @@ Package pdftex.def Info: images/casoUso1.png  used on input line 5.
 \openout2 = `diagramaClase.aux'.
 
  (./diagramaClase.tex
-<images/clase2.png, id=302, 526.96875pt x 373.395pt>
-File: images/clase2.png Graphic file (type png)
-<use images/clase2.png>
-Package pdftex.def Info: images/clase2.png  used on input line 4.
-(pdftex.def)             Requested size: 421.57556pt x 298.7164pt.
+<images/clase.jpg, id=302, 690.58pt x 809.0225pt>
+File: images/clase.jpg Graphic file (type jpg)
+<use images/clase.jpg>
+Package pdftex.def Info: images/clase.jpg  used on input line 4.
+(pdftex.def)             Requested size: 414.3512pt x 485.41725pt.
 ) [12
 
 
- <./images/clase2.png (PNG copy)>]
+ <./images/clase.jpg>]
 \openout2 = `diagramaSecuencia.aux'.
 
  (./diagramaSecuencia.tex
@@ -637,8 +637,8 @@ Package pdftex.def Info: images/secuencia2.png  used on input line 11.
 
 
 
- <./images/secuencia1.png (PNG copy)>] [14 <./images/secuencia2.png (PNG copy)>
-]
+ <./images/secuencia1.png (PNG copy)>]
+[14 <./images/secuencia2.png (PNG copy)>]
 \openout2 = `disenoDB.aux'.
 
  (./disenoDB.tex) [15
@@ -838,26 +838,26 @@ Package rerunfilecheck Info: File `BIBLIOTECA.out' has not changed.
 (rerunfilecheck)             Checksum: BB275559990203E2BC857668C16CD5DA;2797.
  ) 
 Here is how much of TeX's memory you used:
- 9557 strings out of 481076
- 137887 string characters out of 5911353
- 493297 words of memory out of 5000000
- 26057 multiletter control sequences out of 15000+600000
+ 9558 strings out of 481149
+ 137895 string characters out of 5912935
+ 493049 words of memory out of 5000000
+ 26051 multiletter control sequences out of 15000+600000
  414946 words of font info for 71 fonts, out of 8000000 for 9000
- 107 hyphenation exceptions out of 8191
+ 62 hyphenation exceptions out of 8191
  71i,12n,74p,953b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tomthink/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.
-600pk> </home/tomthink/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
-000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb>
-Output written on BIBLIOTECA.pdf (34 pages, 1306383 bytes).
+ </home/tomas/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600
+pk> </home/tomas/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.60
+0pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt10.pfb>
+Output written on BIBLIOTECA.pdf (34 pages, 1298918 bytes).
 PDF statistics:
  529 PDF objects out of 1000 (max. 8388607)
  457 compressed objects within 5 object streams
