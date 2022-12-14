@@ -6,39 +6,40 @@
 \contentsline {section}{\numberline {1.2}REQUERIMIENTOS NO FUNCIONALES}{6}{section.1.2}%
 \contentsline {section}{\numberline {1.3}ESCALABILIDAD}{6}{section.1.3}%
 \contentsline {part}{II\hspace {1em}Analisis del sistema}{7}{part.2}%
-\contentsline {part}{III\hspace {1em}Diseño}{10}{part.3}%
-\contentsline {chapter}{Diseño de base de datos}{14}{figure.1.5}%
-\contentsline {section}{\numberline {2.1}Diagrama entidad relación}{14}{section.2.1}%
-\contentsline {chapter}{DISEÑO DE FORMULARIO Y REPORTES}{15}{Item.16}%
-\contentsline {section}{\numberline {3.1}Diseño de Salida efectiva}{15}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Diseño de Entrada efectiva}{15}{section.3.2}%
-\contentsline {part}{IV\hspace {1em}Implementación}{17}{part.4}%
-\contentsline {chapter}{Tecnologías}{18}{section*.10}%
-\contentsline {chapter}{\numberline {4}MAVEN}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}MVN}{19}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}PROJECT OBJECT MODEL (POM)}{19}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Dependencias utilizadas en el proyecto}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Lombok}{20}{subsection.4.2.1}%
-\contentsline {chapter}{\numberline {5}JAVA}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}JDK}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Versión de java que se utiliza en el proyecto}{21}{section.5.2}%
-\contentsline {chapter}{\numberline {6}MySql/Mariadb}{22}{chapter.6}%
-\contentsline {chapter}{\numberline {8}SPRING}{23}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Spring Boot}{23}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Fásil manejo de dependencias}{23}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Autoconfiguración}{23}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Soporte integrado de contenedor de servlet}{24}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Spring Initializr}{24}{subsection.8.4.1}%
-\contentsline {section}{\numberline {8.5}Herramientas de desarrollo}{24}{section.8.5}%
-\contentsline {chapter}{\numberline {9}IntelliJ IDEA}{25}{chapter.9}%
-\contentsline {section}{\numberline {10.1}Asistente al codificar}{26}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Refactorización}{26}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Terminal}{26}{section.10.3}%
-\contentsline {section}{\numberline {10.4}Herramientas de construcción}{26}{section.10.4}%
-\contentsline {section}{\numberline {10.5}Control de Versiones}{26}{section.10.5}%
-\contentsline {section}{\numberline {10.6}Requerimientos del sistema e instalación}{26}{section.10.6}%
-\contentsline {chapter}{\numberline {11}DBEAVER}{28}{chapter.11}%
-\contentsline {chapter}{\numberline {12}SWAGGER}{29}{chapter.12}%
-\contentsline {section}{\numberline {12.1}Swagger UI}{29}{section.12.1}%
-\contentsline {chapter}{\numberline {13}Diccionario de datos}{30}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Descripción de API REST}{31}{chapter.14}%
+\contentsline {chapter}{\numberline {2}Análisis de sitema}{8}{chapter.2}%
+\contentsline {part}{III\hspace {1em}Diseño}{11}{part.3}%
+\contentsline {chapter}{Diseño de base de datos}{15}{figure.2.5}%
+\contentsline {section}{\numberline {3.1}Diagrama entidad relación}{15}{section.3.1}%
+\contentsline {chapter}{DISEÑO DE FORMULARIO Y REPORTES}{16}{Item.16}%
+\contentsline {section}{\numberline {4.1}Diseño de Salida efectiva}{16}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Diseño de Entrada efectiva}{16}{section.4.2}%
+\contentsline {part}{IV\hspace {1em}Implementación}{18}{part.4}%
+\contentsline {chapter}{Tecnologías}{19}{section*.10}%
+\contentsline {chapter}{\numberline {5}MAVEN}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}MVN}{20}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}PROJECT OBJECT MODEL (POM)}{20}{subsection.5.1.1}%
+\contentsline {section}{\numberline {5.2}Dependencias utilizadas en el proyecto}{21}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Lombok}{21}{subsection.5.2.1}%
+\contentsline {chapter}{\numberline {6}JAVA}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}JDK}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Versión de java que se utiliza en el proyecto}{22}{section.6.2}%
+\contentsline {chapter}{\numberline {7}MySql/Mariadb}{23}{chapter.7}%
+\contentsline {chapter}{\numberline {9}SPRING}{24}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Spring Boot}{24}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Fásil manejo de dependencias}{24}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Autoconfiguración}{24}{section.9.3}%
+\contentsline {section}{\numberline {9.4}Soporte integrado de contenedor de servlet}{25}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Spring Initializr}{25}{subsection.9.4.1}%
+\contentsline {section}{\numberline {9.5}Herramientas de desarrollo}{25}{section.9.5}%
+\contentsline {chapter}{\numberline {10}IntelliJ IDEA}{26}{chapter.10}%
+\contentsline {section}{\numberline {11.1}Asistente al codificar}{27}{section.11.1}%
+\contentsline {section}{\numberline {11.2}Refactorización}{27}{section.11.2}%
+\contentsline {section}{\numberline {11.3}Terminal}{27}{section.11.3}%
+\contentsline {section}{\numberline {11.4}Herramientas de construcción}{27}{section.11.4}%
+\contentsline {section}{\numberline {11.5}Control de Versiones}{27}{section.11.5}%
+\contentsline {section}{\numberline {11.6}Requerimientos del sistema e instalación}{27}{section.11.6}%
+\contentsline {chapter}{\numberline {12}DBEAVER}{29}{chapter.12}%
+\contentsline {chapter}{\numberline {13}SWAGGER}{30}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Swagger UI}{30}{section.13.1}%
+\contentsline {chapter}{\numberline {14}Diccionario de datos}{31}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Descripción de API REST}{32}{chapter.15}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.30)  2 DEC 2022 22:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.5.27)  10 DEC 2022 11:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -193,7 +193,7 @@ Package: babel 2021/01/26 3.53 The Babel package
 File: babel.def 2021/01/26 3.53 Babel common definitions
 \babel@savecnt=\count271
 \U@D=\dimen167
-\l@babelnohyphens=\language8
+\l@babelnohyphens=\language12
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
@@ -386,11 +386,12 @@ File: l3backend-pdftex.def 2020-01-29 L3 backend support: PDF output (pdfTeX)
 (./BIBLIOTECA.aux
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
- (./problema.aux) (./requerimiento.aux) (./diagramaProceso.aux) (./diagramaCaso
-Uso.aux) (./diagramaClase.aux) (./diagramaSecuencia.aux)
-(./disenoDB.aux) (./disenoFormularioReporte.aux) (./tecnologia.aux)
-(./maven.aux) (./java.aux) (./mysql.aux) (./spring.aux) (./idea.aux)
-(./dbeaver.aux) (./swagger.aux) (./diccionarioDato.aux) (./apiRest.aux))
+ (./problema.aux) (./requerimiento.aux) (./analisis.aux)
+(./diagramaProceso.aux) (./diagramaCasoUso.aux) (./diagramaClase.aux)
+(./diagramaSecuencia.aux) (./disenoDB.aux) (./disenoFormularioReporte.aux)
+(./tecnologia.aux) (./maven.aux) (./java.aux) (./mysql.aux) (./spring.aux)
+(./idea.aux) (./dbeaver.aux) (./swagger.aux) (./diccionarioDato.aux)
+(./apiRest.aux))
 \openout1 = `BIBLIOTECA.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -488,7 +489,7 @@ LaTeX Info: Redefining \nameref on input line 54.
 \@outlinefile=\write3
 \openout3 = `BIBLIOTECA.out'.
 
-<images/logoUbi2.png, id=172, 225.84375pt x 225.84375pt>
+<images/logoUbi2.png, id=176, 225.84375pt x 225.84375pt>
 File: images/logoUbi2.png Graphic file (type png)
 <use images/logoUbi2.png>
 Package pdftex.def Info: images/logoUbi2.png  used on input line 58.
@@ -514,7 +515,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.35 ... {11.2}Refactorización}{26}{section.11.2}
+l.34 ...berline {10}IntelliJ IDEA}{26}{chapter.10}
                                                   % [1
 
 ])
@@ -525,7 +526,7 @@ l.35 ... {11.2}Refactorización}{26}{section.11.2}
 \openout2 = `problema.aux'.
 
  (./problema.tex
-<images/scaneandoLibro.jpg, id=235, 962.59625pt x 660.4675pt>
+<images/scaneandoLibro.jpg, id=240, 962.59625pt x 660.4675pt>
 File: images/scaneandoLibro.jpg Graphic file (type jpg)
 <use images/scaneandoLibro.jpg>
 Package pdftex.def Info: images/scaneandoLibro.jpg  used on input line 11.
@@ -555,73 +556,92 @@ Cap\'{\i }tulo 1.
 
 
 ]
+\openout2 = `analisis.aux'.
+
+ (./analisis.tex
+Cap\'{\i }tulo 2.
+<images/entidadRelacion.png, id=279, 773.13844pt x 433.62pt>
+File: images/entidadRelacion.png Graphic file (type png)
+<use images/entidadRelacion.png>
+Package pdftex.def Info: images/entidadRelacion.png  used on input line 4.
+(pdftex.def)             Requested size: 541.19322pt x 303.53192pt.
+
+Overfull \hbox (40.70923pt too wide) in paragraph at lines 4--5
+ [][] 
+ []
+
+) [8
+
+
+ <./images/entidadRelacion.png (PNG copy)>]
 \openout2 = `diagramaProceso.aux'.
 
  (./diagramaProceso.tex
-<images/modeladoProceso1.png, id=274, 858.20625pt x 508.90125pt>
+<images/modeladoProceso1.png, id=284, 858.20625pt x 508.90125pt>
 File: images/modeladoProceso1.png Graphic file (type png)
 <use images/modeladoProceso1.png>
 Package pdftex.def Info: images/modeladoProceso1.png  used on input line 5.
 (pdftex.def)             Requested size: 429.10208pt x 254.45pt.
-) [8
+)
+[9
+
+
 
 
  <./images/modeladoProceso1.png (PNG copy)>]
 \openout2 = `diagramaCasoUso.aux'.
 
  (./diagramaCasoUso.tex
-<images/casoUso1.png, id=281, 396.7322pt x 239.39438pt>
+<images/casoUso1.png, id=291, 396.7322pt x 239.39438pt>
 File: images/casoUso1.png Graphic file (type png)
 <use images/casoUso1.png>
 Package pdftex.def Info: images/casoUso1.png  used on input line 5.
 (pdftex.def)             Requested size: 317.38617pt x 191.51575pt.
-) [9
+) [10
 
 
 
 
- <./images/casoUso1.png (PNG copy)>] [10
+ <./images/casoUso1.png (PNG copy)>] [11
 
 
 
 ]
 \openout2 = `diagramaClase.aux'.
 
-
-(./diagramaClase.tex
-<images/clase2.png, id=292, 526.96875pt x 373.395pt>
+ (./diagramaClase.tex
+<images/clase2.png, id=302, 526.96875pt x 373.395pt>
 File: images/clase2.png Graphic file (type png)
 <use images/clase2.png>
 Package pdftex.def Info: images/clase2.png  used on input line 4.
 (pdftex.def)             Requested size: 421.57556pt x 298.7164pt.
-) [11
+) [12
 
 
  <./images/clase2.png (PNG copy)>]
 \openout2 = `diagramaSecuencia.aux'.
 
-
-(./diagramaSecuencia.tex
-<images/secuencia1.png, id=299, 469.00218pt x 412.54124pt>
+ (./diagramaSecuencia.tex
+<images/secuencia1.png, id=311, 469.00218pt x 412.54124pt>
 File: images/secuencia1.png Graphic file (type png)
 <use images/secuencia1.png>
 Package pdftex.def Info: images/secuencia1.png  used on input line 5.
 (pdftex.def)             Requested size: 375.20226pt x 330.03345pt.
-<images/secuencia2.png, id=300, 456.95718pt x 482.55281pt>
+<images/secuencia2.png, id=312, 456.95718pt x 482.55281pt>
 File: images/secuencia2.png Graphic file (type png)
 <use images/secuencia2.png>
 Package pdftex.def Info: images/secuencia2.png  used on input line 11.
 (pdftex.def)             Requested size: 365.56622pt x 386.04276pt.
-) [12
+) [13
 
 
 
 
- <./images/secuencia1.png (PNG copy)>] [13 <./images/secuencia2.png (PNG copy)>
+ <./images/secuencia1.png (PNG copy)>] [14 <./images/secuencia2.png (PNG copy)>
 ]
 \openout2 = `disenoDB.aux'.
 
- (./disenoDB.tex) [14
+ (./disenoDB.tex) [15
 
 
 
@@ -631,29 +651,29 @@ Package pdftex.def Info: images/secuencia2.png  used on input line 11.
 
 
 (./disenoFormularioReporte.tex
-<images/resultadoBusqueda1.png, id=319, 686.565pt x 351.56343pt>
+<images/resultadoBusqueda1.png, id=329, 686.565pt x 351.56343pt>
 File: images/resultadoBusqueda1.png Graphic file (type png)
 <use images/resultadoBusqueda1.png>
 Package pdftex.def Info: images/resultadoBusqueda1.png  used on input line 12.
 (pdftex.def)             Requested size: 343.28166pt x 175.78128pt.
-<images/buscador1.png, id=320, 523.20468pt x 353.82187pt>
+<images/buscador1.png, id=330, 523.20468pt x 353.82187pt>
 File: images/buscador1.png Graphic file (type png)
 <use images/buscador1.png>
 Package pdftex.def Info: images/buscador1.png  used on input line 18.
 (pdftex.def)             Requested size: 261.6017pt x 176.91049pt.
-<images/almacenamientoDato1.png, id=321, 507.39563pt x 352.31625pt>
+<images/almacenamientoDato1.png, id=331, 507.39563pt x 352.31625pt>
 File: images/almacenamientoDato1.png Graphic file (type png)
 <use images/almacenamientoDato1.png>
 Package pdftex.def Info: images/almacenamientoDato1.png  used on input line 27.
 
 (pdftex.def)             Requested size: 253.69719pt x 176.15768pt.
-) [15
+) [16
 
 
 
 
- <./images/resultadoBusqueda1.png (PNG copy)>] [16 <./images/buscador1.png (PNG
- copy)> <./images/almacenamientoDato1.png (PNG copy)>] [17
+ <./images/resultadoBusqueda1.png (PNG copy)>] [17 <./images/buscador1.png (PNG
+ copy)> <./images/almacenamientoDato1.png (PNG copy)>] [18
 
 
 
@@ -665,30 +685,30 @@ Package pdftex.def Info: images/almacenamientoDato1.png  used on input line 27.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 1.
 
-) [18
+) [19
 
 
 ]
 \openout2 = `maven.aux'.
 
  (./maven.tex
-Cap\'{\i }tulo 4.
-<images/maven1.png, id=346, 1183.42125pt x 519.44063pt>
+Cap\'{\i }tulo 5.
+<images/maven1.png, id=356, 1183.42125pt x 519.44063pt>
 File: images/maven1.png Graphic file (type png)
 <use images/maven1.png>
 Package pdftex.def Info: images/maven1.png  used on input line 17.
 (pdftex.def)             Requested size: 473.36012pt x 207.77257pt.
-[19
+[20
 
 
 
 
- <./images/maven1.png (PNG copy)>]) [20]
+ <./images/maven1.png (PNG copy)>]) [21]
 \openout2 = `java.aux'.
 
  (./java.tex
-Cap\'{\i }tulo 5.
-) [21
+Cap\'{\i }tulo 6.
+) [22
 
 
 
@@ -697,13 +717,13 @@ Cap\'{\i }tulo 5.
 \openout2 = `mysql.aux'.
 
  (./mysql.tex
-Cap\'{\i }tulo 6.
-<images/maria1.png, id=370, 871.75688pt x 504.38437pt>
+Cap\'{\i }tulo 7.
+<images/maria1.png, id=380, 871.75688pt x 504.38437pt>
 File: images/maria1.png Graphic file (type png)
 <use images/maria1.png>
 Package pdftex.def Info: images/maria1.png  used on input line 17.
 (pdftex.def)             Requested size: 435.87738pt x 252.19156pt.
-) [22
+) [23
 
 
 
@@ -712,58 +732,58 @@ Package pdftex.def Info: images/maria1.png  used on input line 17.
 \openout2 = `spring.aux'.
 
  (./spring.tex
-Cap\'{\i }tulo 8.
-[23
+Cap\'{\i }tulo 9.
+[24
 
 
 
 
 ]
-<images/spring1.png, id=391, 995.97093pt x 474.27188pt>
+<images/spring1.png, id=399, 995.97093pt x 474.27188pt>
 File: images/spring1.png Graphic file (type png)
 <use images/spring1.png>
 Package pdftex.def Info: images/spring1.png  used on input line 38.
 (pdftex.def)             Requested size: 497.98425pt x 237.13536pt.
-) [24 <./images/spring1.png (PNG copy)>]
+) [25 <./images/spring1.png (PNG copy)>]
 \openout2 = `idea.aux'.
 
  (./idea.tex
-Cap\'{\i }tulo 9.
-<images/idea3.png, id=402, 824.32968pt x 332.74312pt>
+Cap\'{\i }tulo 10.
+<images/idea3.png, id=406, 824.32968pt x 332.74312pt>
 File: images/idea3.png Graphic file (type png)
 <use images/idea3.png>
 Package pdftex.def Info: images/idea3.png  used on input line 42.
 (pdftex.def)             Requested size: 284.52756pt x 114.85234pt.
-[25
+[26
 
 
 
 
  <./images/idea3.png (PNG copy)>]
-<images/idea1.png, id=411, 938.75719pt x 491.58656pt>
+<images/idea1.png, id=414, 938.75719pt x 491.58656pt>
 File: images/idea1.png Graphic file (type png)
 <use images/idea1.png>
 Package pdftex.def Info: images/idea1.png  used on input line 63.
 (pdftex.def)             Requested size: 284.52756pt x 148.9923pt.
- [26 <./images/idea1.png (PNG copy)>]
-<images/idea4.png, id=423, 936.49875pt x 418.56375pt>
+ [27 <./images/idea1.png (PNG copy)>]
+<images/idea4.png, id=421, 936.49875pt x 418.56375pt>
 File: images/idea4.png Graphic file (type png)
 <use images/idea4.png>
 Package pdftex.def Info: images/idea4.png  used on input line 79.
 (pdftex.def)             Requested size: 284.52756pt x 127.16678pt.
-<images/idea2.png, id=424, 1001.24063pt x 453.19313pt>
+<images/idea2.png, id=422, 1001.24063pt x 453.19313pt>
 File: images/idea2.png Graphic file (type png)
 <use images/idea2.png>
 Package pdftex.def Info: images/idea2.png  used on input line 86.
 (pdftex.def)             Requested size: 284.52756pt x 128.78796pt.
 )
-[27 <./images/idea4.png (PNG copy)> <./images/idea2.png (PNG copy)>]
+[28 <./images/idea4.png (PNG copy)> <./images/idea2.png (PNG copy)>]
 \openout2 = `dbeaver.aux'.
 
 
 (./dbeaver.tex
-Cap\'{\i }tulo 11.
-) [28
+Cap\'{\i }tulo 12.
+) [29
 
 
 
@@ -772,8 +792,8 @@ Cap\'{\i }tulo 11.
 \openout2 = `swagger.aux'.
 
  (./swagger.tex
-Cap\'{\i }tulo 12.
-) [29
+Cap\'{\i }tulo 13.
+) [30
 
 
 
@@ -782,8 +802,8 @@ Cap\'{\i }tulo 12.
 \openout2 = `diccionarioDato.aux'.
 
  (./diccionarioDato.tex
-Cap\'{\i }tulo 13.
-) [30
+Cap\'{\i }tulo 14.
+) [31
 
 
 
@@ -792,13 +812,13 @@ Cap\'{\i }tulo 13.
 \openout2 = `apiRest.aux'.
 
  (./apiRest.tex
-Cap\'{\i }tulo 14.
-) [31
+Cap\'{\i }tulo 15.
+) [32
 
 
 
 
-] (./BIBLIOTECA.bbl) [32
+] (./BIBLIOTECA.bbl) [33
 
 
 
@@ -806,92 +826,41 @@ Cap\'{\i }tulo 14.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
  (./problema.aux)
-(./requerimiento.aux) (./diagramaProceso.aux) (./diagramaCasoUso.aux)
-(./diagramaClase.aux) (./diagramaSecuencia.aux) (./disenoDB.aux)
-(./disenoFormularioReporte.aux) (./tecnologia.aux) (./maven.aux) (./java.aux)
-(./mysql.aux) (./spring.aux) (./idea.aux) (./dbeaver.aux) (./swagger.aux)
-(./diccionarioDato.aux) (./apiRest.aux))
+(./requerimiento.aux) (./analisis.aux) (./diagramaProceso.aux)
+(./diagramaCasoUso.aux) (./diagramaClase.aux) (./diagramaSecuencia.aux)
+(./disenoDB.aux) (./disenoFormularioReporte.aux) (./tecnologia.aux)
+(./maven.aux) (./java.aux) (./mysql.aux) (./spring.aux) (./idea.aux)
+(./dbeaver.aux) (./swagger.aux) (./diccionarioDato.aux) (./apiRest.aux))
 
 LaTeX Warning: There were undefined references.
 
-
-Package rerunfilecheck Warning: File `BIBLIOTECA.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `BIBLIOTECA.out':
-(rerunfilecheck)             Before: 13B811B54DE1749A7104A0BD96C50FEC;2734
-(rerunfilecheck)             After:  09C7BBB305E215B3CAC2ED15A9648C59;2727.
+Package rerunfilecheck Info: File `BIBLIOTECA.out' has not changed.
+(rerunfilecheck)             Checksum: BB275559990203E2BC857668C16CD5DA;2797.
  ) 
 Here is how much of TeX's memory you used:
- 9550 strings out of 481149
- 137687 string characters out of 5912935
- 492621 words of memory out of 5000000
- 26038 multiletter control sequences out of 15000+600000
+ 9557 strings out of 481076
+ 137887 string characters out of 5911353
+ 493297 words of memory out of 5000000
+ 26057 multiletter control sequences out of 15000+600000
  414946 words of font info for 71 fonts, out of 8000000 for 9000
- 62 hyphenation exceptions out of 8191
- 71i,13n,74p,953b,669s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter.15} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.13.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.6} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.5} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.3} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.2} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.11.1} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.10} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.5} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.9.4.1} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.4} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.3} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.2} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9.1} has been referenced but does not exist
-, replaced by a fixed one
-
- </home/tomas/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.600pk
-> </home/tomas/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600p
-k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt10.pfb>
-Output written on BIBLIOTECA.pdf (33 pages, 1225957 bytes).
+ 107 hyphenation exceptions out of 8191
+ 71i,12n,74p,953b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/tomthink/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm0800.
+600pk> </home/tomthink/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1
+000.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt10.pfb>
+Output written on BIBLIOTECA.pdf (34 pages, 1306383 bytes).
 PDF statistics:
- 536 PDF objects out of 1000 (max. 8388607)
- 466 compressed objects within 5 object streams
- 144 named destinations out of 1000 (max. 500000)
- 422 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 457 compressed objects within 5 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 435 words of extra memory for PDF output out of 10000 (max. 10000000)
 
