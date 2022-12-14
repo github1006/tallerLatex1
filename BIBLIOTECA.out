@@ -8,36 +8,37 @@
 \BOOKMARK [-1][-]{part.3}{III Dise\361o}{}% 8
 \BOOKMARK [0][-]{figure.2.5}{Dise\361o de base de datos}{part.3}% 9
 \BOOKMARK [1][-]{section.3.1}{Diagrama entidad relaci\363n}{figure.2.5}% 10
-\BOOKMARK [0][-]{Item.16}{DISE\321O DE FORMULARIO Y REPORTES}{part.3}% 11
-\BOOKMARK [1][-]{section.4.1}{Dise\361o de Salida efectiva}{Item.16}% 12
-\BOOKMARK [1][-]{section.4.2}{Dise\361o de Entrada efectiva}{Item.16}% 13
-\BOOKMARK [-1][-]{part.4}{IV Implementaci\363n}{}% 14
-\BOOKMARK [0][-]{section*.10}{Tecnolog\355as}{part.4}% 15
-\BOOKMARK [0][-]{chapter.5}{MAVEN}{part.4}% 16
-\BOOKMARK [1][-]{section.5.1}{MVN}{chapter.5}% 17
-\BOOKMARK [2][-]{subsection.5.1.1}{PROJECT OBJECT MODEL \(POM\)}{section.5.1}% 18
-\BOOKMARK [1][-]{section.5.2}{Dependencias utilizadas en el proyecto}{chapter.5}% 19
-\BOOKMARK [2][-]{subsection.5.2.1}{Lombok}{section.5.2}% 20
-\BOOKMARK [0][-]{chapter.6}{JAVA}{part.4}% 21
-\BOOKMARK [1][-]{section.6.1}{JDK}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.2}{Versi\363n de java que se utiliza en el proyecto}{chapter.6}% 23
-\BOOKMARK [0][-]{chapter.7}{MySql/Mariadb}{part.4}% 24
-\BOOKMARK [0][-]{chapter.9}{SPRING}{part.4}% 25
-\BOOKMARK [1][-]{section.9.1}{Spring Boot}{chapter.9}% 26
-\BOOKMARK [1][-]{section.9.2}{F\341sil manejo de dependencias}{chapter.9}% 27
-\BOOKMARK [1][-]{section.9.3}{Autoconfiguraci\363n}{chapter.9}% 28
-\BOOKMARK [1][-]{section.9.4}{Soporte integrado de contenedor de servlet}{chapter.9}% 29
-\BOOKMARK [2][-]{subsection.9.4.1}{Spring Initializr}{section.9.4}% 30
-\BOOKMARK [1][-]{section.9.5}{Herramientas de desarrollo}{chapter.9}% 31
-\BOOKMARK [0][-]{chapter.10}{IntelliJ IDEA}{part.4}% 32
-\BOOKMARK [1][-]{section.11.1}{Asistente al codificar}{chapter.10}% 33
-\BOOKMARK [1][-]{section.11.2}{Refactorizaci\363n}{chapter.10}% 34
-\BOOKMARK [1][-]{section.11.3}{Terminal}{chapter.10}% 35
-\BOOKMARK [1][-]{section.11.4}{Herramientas de construcci\363n}{chapter.10}% 36
-\BOOKMARK [1][-]{section.11.5}{Control de Versiones}{chapter.10}% 37
-\BOOKMARK [1][-]{section.11.6}{Requerimientos del sistema e instalaci\363n}{chapter.10}% 38
-\BOOKMARK [0][-]{chapter.12}{DBEAVER}{part.4}% 39
-\BOOKMARK [0][-]{chapter.13}{SWAGGER}{part.4}% 40
-\BOOKMARK [1][-]{section.13.1}{Swagger UI}{chapter.13}% 41
-\BOOKMARK [0][-]{chapter.14}{Diccionario de datos}{part.4}% 42
-\BOOKMARK [0][-]{chapter.15}{Descripci\363n de API REST}{part.4}% 43
+\BOOKMARK [0][-]{Item.16}{Arquitectura}{part.3}% 11
+\BOOKMARK [0][-]{chapter*.9}{DISE\321O DE FORMULARIO Y REPORTES}{part.3}% 12
+\BOOKMARK [1][-]{section.5.1}{Dise\361o de Salida efectiva}{chapter*.9}% 13
+\BOOKMARK [1][-]{section.5.2}{Dise\361o de Entrada efectiva}{chapter*.9}% 14
+\BOOKMARK [-1][-]{part.4}{IV Implementaci\363n}{}% 15
+\BOOKMARK [0][-]{section*.11}{Tecnolog\355as}{part.4}% 16
+\BOOKMARK [0][-]{chapter.6}{MAVEN}{part.4}% 17
+\BOOKMARK [1][-]{section.6.1}{MVN}{chapter.6}% 18
+\BOOKMARK [2][-]{subsection.6.1.1}{PROJECT OBJECT MODEL \(POM\)}{section.6.1}% 19
+\BOOKMARK [1][-]{section.6.2}{Dependencias utilizadas en el proyecto}{chapter.6}% 20
+\BOOKMARK [2][-]{subsection.6.2.1}{Lombok}{section.6.2}% 21
+\BOOKMARK [0][-]{chapter.7}{JAVA}{part.4}% 22
+\BOOKMARK [1][-]{section.7.1}{JDK}{chapter.7}% 23
+\BOOKMARK [1][-]{section.7.2}{Versi\363n de java que se utiliza en el proyecto}{chapter.7}% 24
+\BOOKMARK [0][-]{chapter.8}{MySql/Mariadb}{part.4}% 25
+\BOOKMARK [0][-]{chapter.10}{SPRING}{part.4}% 26
+\BOOKMARK [1][-]{section.10.1}{Spring Boot}{chapter.10}% 27
+\BOOKMARK [1][-]{section.10.2}{F\341sil manejo de dependencias}{chapter.10}% 28
+\BOOKMARK [1][-]{section.10.3}{Autoconfiguraci\363n}{chapter.10}% 29
+\BOOKMARK [1][-]{section.10.4}{Soporte integrado de contenedor de servlet}{chapter.10}% 30
+\BOOKMARK [2][-]{subsection.10.4.1}{Spring Initializr}{section.10.4}% 31
+\BOOKMARK [1][-]{section.10.5}{Herramientas de desarrollo}{chapter.10}% 32
+\BOOKMARK [0][-]{chapter.11}{IntelliJ IDEA}{part.4}% 33
+\BOOKMARK [1][-]{section.12.1}{Asistente al codificar}{chapter.11}% 34
+\BOOKMARK [1][-]{section.12.2}{Refactorizaci\363n}{chapter.11}% 35
+\BOOKMARK [1][-]{section.12.3}{Terminal}{chapter.11}% 36
+\BOOKMARK [1][-]{section.12.4}{Herramientas de construcci\363n}{chapter.11}% 37
+\BOOKMARK [1][-]{section.12.5}{Control de Versiones}{chapter.11}% 38
+\BOOKMARK [1][-]{section.12.6}{Requerimientos del sistema e instalaci\363n}{chapter.11}% 39
+\BOOKMARK [0][-]{chapter.13}{DBEAVER}{part.4}% 40
+\BOOKMARK [0][-]{chapter.14}{SWAGGER}{part.4}% 41
+\BOOKMARK [1][-]{section.14.1}{Swagger UI}{chapter.14}% 42
+\BOOKMARK [0][-]{chapter.15}{Diccionario de datos}{part.4}% 43
+\BOOKMARK [0][-]{chapter.16}{Descripci\363n de API REST}{part.4}% 44
